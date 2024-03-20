@@ -1,0 +1,132 @@
+    
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px){
+    :root {
+        --max--width:984px;
+    }
+    .main__top {
+        padding-top: 0;
+    }
+    .main__top--text{
+        font-size: 4rem;
+    }
+    .main__top--text2{
+        font-size: 4rem;
+    }
+}
+    
+    /* Mobile & tablet */
+    
+@media (max-width:1023px){
+    :root {
+        --max--width:644px;
+    }
+    .header__nav--logo img{
+        display: none;
+    }
+    .header__nav--list{
+        display: none;
+    }
+    .main{
+        background-image: url(asset/shapdots_mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: -10rem;
+    }
+    .main__grid--left p{
+        display: none;
+    }
+    .main__top{
+        padding-top: 17rem;
+    }
+    .top--text span:first-child{
+        display: block;
+    }
+    .red--text{
+        padding: 3rem;
+    }
+    .main__btn{
+        margin-top: 4rem;
+        display: block;
+    }
+    .right1{
+        display: none;
+    }
+    .main__bottom{
+
+        padding-top:0;
+    }
+    .feature{
+        padding-left: 2rem;
+        padding-top: 0;
+    }
+    .feature__bar--item{
+        width: 50%;
+        padding-left: 2rem;
+    }
+    .plan__bar--item{
+        width: 100%;
+    }
+    .plan__item--price{
+        color:var(--primary--color);
+    }
+    .plan__item--content{
+        margin: 2rem 0;
+    }
+    .plan__item--content span {
+        font-weight: 500;
+    }
+    .footer__conatiner{
+        background-image: url(asset/footer__mobile.png);
+        background-repeat: no-repeat;
+        background-position:left bottom;
+        padding-bottom: 5rem;
+    }
+    .footer{
+        background-image: none;
+        padding:0;
+    }
+    .footer__info{
+        display: none;
+    }
+
+    .footer__contact{
+    display: none;
+    }
+    
+}
+  /* tablet */
+    
+@media (max-width:1023px)and (min-width:740px) {
+    
+}
+
+    /* Mobile */
+    
+@media (max-width:739px) {
+    :root {
+        --max--width:450px;
+    }
+    .main__top{
+        padding-top:11rem;
+    }
+    .main__top--text{
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .main__top--text2{
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .main__btn{
+        margin-top: 5rem;
+    }
+    .main__grid--left{
+        display: none;
+    }
+    .main__grid--right{
+        width: 100%;
+    }
+    
+}
